@@ -123,6 +123,10 @@ iframe {
   max-height: 815px;
 }
 
+.section-video p {
+  margin: 27px 0 30px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -246,6 +250,7 @@ a.card:hover h3 {
 }
 
 .columns-2 p {
+  max-width: 540px;
   break-inside: avoid;
 }
 
@@ -274,10 +279,6 @@ a.card:hover h3 {
 iframe {
   z-index: 2;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
-.section-video p {
-  margin: 27px 0 30px;
 }
 
 .orange {
