@@ -88,7 +88,7 @@ header::before {
   height: 100%;
   content: "";
   background-image: url("../assets/images/background.png");
-  opacity: 6%;
+  opacity: 10%;
 }
 
 .title {
