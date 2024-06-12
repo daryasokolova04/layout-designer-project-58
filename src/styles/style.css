@@ -28,6 +28,7 @@
 body {
   margin: 0;
   color: var(--dark-text);
+  font-family: "OpenSans", sans-serif;
 }
 
 h1,
@@ -111,22 +112,14 @@ header img {
   text-align: center;
 }
 
-.section-video::after {
-  position: absolute;
-  bottom: -15px;
-  right: 0;
-  width: 100%;
-  height: 110px;
-  content: "";
-  background-color: var(--dark-background);
-}
-
 iframe {
   position: relative;
+  bottom: -20px;
 }
 
-#navigation {
-  background-color: var(--dark-background);
+.section-video .container {
+  padding-bottom: 0;
+  max-height: 815px;
 }
 
 .d-flex {
@@ -139,6 +132,14 @@ iframe {
 
 .center {
   justify-content: center;
+}
+
+#navigation {
+  background-color: var(--dark-background);
+}
+
+#navigation .container {
+  padding-top: 200px;
 }
 
 .card {
@@ -227,7 +228,7 @@ a.card:hover h3 {
   margin-bottom: 30px;
 }
 
-.nav-item h2::before {
+.nav-item h2:first-child::before {
   display: block;
   content: "Когнитивные искажения";
   font-size: 24px;
