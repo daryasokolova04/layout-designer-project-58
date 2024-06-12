@@ -224,18 +224,18 @@ a.card:hover h3 {
   text-align: left;
 }
 
-.nav-item h2 {
+.nav-item__main h2 {
   margin-bottom: 30px;
 }
 
-.nav-item h2:first-child::before {
+.nav-item__main h2::before {
   display: block;
   content: "Когнитивные искажения";
   font-size: 24px;
   color: #908d8b;
 }
 
-.nav-item:nth-child(2n) h2::before {
+.nav-item__main:nth-child(2n + 1) h2::before {
   color: #d7ccc0;
 }
 
