@@ -1,4 +1,4 @@
-font-face {
+@font-face {
   font-family: "Neucha";
   src: url("../assets/fonts/Neucha-Regular.ttf");
 }
@@ -115,12 +115,12 @@ header img {
 
 iframe {
   position: relative;
-  bottom: -30px;
+  bottom: 4px;
 }
 
 .section-video .container {
   padding-bottom: 0;
-  max-height: 815px;
+  max-height: 760px;
 }
 
 .section-video p {
