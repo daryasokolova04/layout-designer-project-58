@@ -91,18 +91,6 @@ header::before {
   opacity: 10%;
 }
 
-header::after {
-  position: absolute;
-  content: "";
-  z-index: 2;
-  background-image: url("../assets/images/main.png");
-  width: 1083px;
-  height: 525px;
-  display: inline-block;
-  bottom: 365px;
-  left: 445px;
-}
-
 .title {
   z-index: 3;
   flex-shrink: 0;
@@ -117,7 +105,7 @@ header img {
 
 .description {
   position: relative;
-  bottom: -200px;
+  bottom: 60px;
 }
 
 .section-video {
