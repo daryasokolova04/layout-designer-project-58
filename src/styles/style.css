@@ -77,7 +77,7 @@ section {
 header {
   position: relative;
   overflow: hidden;
-  height: 914px;
+  max-height: 914px;
   background-color: var(--light);
 }
 
