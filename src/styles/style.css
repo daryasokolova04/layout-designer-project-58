@@ -108,7 +108,7 @@ header img {
   bottom: 60px;
 }
 
-.preview-image {
+#preview-image {
   position: relative;
   text-align: center;
 }
@@ -118,12 +118,12 @@ iframe {
   bottom: 4px;
 }
 
-.preview-image .container {
+#preview-image .container {
   padding-bottom: 0;
   max-height: 760px;
 }
 
-.preview-image p {
+#preview-image p {
   margin: 27px 0 30px;
 }
 
