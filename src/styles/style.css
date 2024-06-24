@@ -113,7 +113,8 @@ header img {
   text-align: center;
 }
 
-iframe {
+iframe,
+video {
   position: relative;
   bottom: 4px;
 }
@@ -280,7 +281,8 @@ a.card:hover h3 {
 }
 
 .nav-item img,
-iframe {
+iframe,
+video {
   z-index: 2;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
