@@ -113,8 +113,6 @@ header img {
   text-align: center;
 }
 
-iframe,
-video,
 #preview-image a {
   position: relative;
   bottom: 4px;
@@ -282,8 +280,6 @@ a.card:hover h3 {
 }
 
 .nav-item img,
-iframe,
-video,
 #preview-image a {
   z-index: 2;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -304,6 +300,7 @@ video,
 .header-link {
   position: relative;
   top: 40px;
+  left: 570px;
   display: block;
   box-sizing: border-box;
   max-width: 148px;
